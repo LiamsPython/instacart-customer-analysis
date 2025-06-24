@@ -1,8 +1,8 @@
-Instacart Customer Analysis
+###Instacart Customer Analysis
 
 Insightful data-driven analysis of customer purchasing patterns using Python & visualisations.
 
-Project Overview
+##Project Overview
 
 This project examines over 3 million anonymized Instacart grocery orders to uncover:
 Peak shopping windows (weekday/hour trends)
@@ -11,22 +11,23 @@ Market basket relationships & association rules
 Customer segmentation and reorder prediction
 Using Python (pandas, seaborn), Jupyter, and clear visual storytelling 🎯.
 
-Motivation
+##Motivation
 
 With vast grocery data, the goal is to transform raw numbers into actionable insights:
 Help marketers time promotions
 Aid inventory teams in stocking high-demand items
 Support recommendation systems for improved customer experience
 
-Data & Preparation
+#Data & Preparation
 
 Data sources: orders, products, departments, aisles, and customer data.
-Processing steps:
-Type corrections, deduplication, and null handling
+Dataset obtained from Kaggle: https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset
+
+Processing steps: Type corrections, deduplication, and null handling
 Memory optimization via efficient data formats
 Sampling techniques for performance
 
-Analysis Workflow
+##Analysis Workflow
 
 Exploratory Data Analysis (EDA)
 Identify order patterns by day and hour
@@ -39,7 +40,7 @@ Reorder Prediction
 Feature engineering (user, product, aisle, order features)
 Baseline model for predicting if an item will be reordered
 
-Key Findings
+##Key Findings
 
 Peak hours: 10–11 am & 2–3 pm; busiest days: Sundays & Mondays
 Repeat purchase behavior: ~11-day average reordering interval; 58–60% of products are repeat buys
@@ -47,7 +48,7 @@ Top items: Bananas, Organic Berries, Avocados consistently rank at the top
 Association rules: Frequent combos include (Bananas ↔ Organic Raspberries), (Limes ↔ Lemons)
 Segments identified: Distinct shopper types such as organic-lovers, beverage-focused, and occasional shoppers
 
-Usage
+##Usage
 
 # Clone the repository
 git clone https://github.com/LiamsPython/instacart-customer-analysis.git
